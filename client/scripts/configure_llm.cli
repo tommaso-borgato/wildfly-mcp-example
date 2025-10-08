@@ -1,0 +1,1 @@
+/subsystem=ai/ollama-chat-model=llama3:add(model-name="llama3.1:8b", base-url="http://127.0.0.1:11434", log-requests="true", log-responses="true", temperature="0.9")

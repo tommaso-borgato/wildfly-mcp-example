@@ -8,7 +8,7 @@ import org.wildfly.mcp.api.ToolArg;
 public class ExampleTool {
 
 	@Tool(name = "String.length", description = "Calculates the length of a string")
-	int stringLength(
+	Integer stringLength(
 			@ToolArg(description = "The string of which you want to calculate the length")  String s) {
 		System.out.println("Called stringLength() with s='" + s + "'");
 		return s.length();
